@@ -1,0 +1,14 @@
+{
+    "name": "oliverhtet/wavemoney",
+    "description": "Payment integration in Myanmar",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Oliverhtet\\Wavemoney\\": "packages/payment/wave-money/src"
+        }
+    },
+    "minimum-stability": "beta",
+    "require": {}
+}
